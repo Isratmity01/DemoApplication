@@ -62,7 +62,7 @@ public class HospitalActivity extends FragmentActivity {
         lat = location.getLatitude();
 
         lng = location.getLongitude();
-        hospitalURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + lat + "," + lng + "&radius=1000&sensor=true&types=hospital&key=*use own google places api web service*";
+        hospitalURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + lat + "," + lng + "&radius=1000&sensor=true&types=hospital&key=AIzaSyCCA2qBXRkh7EhnoyI2vWjnRTafhKmVEdY";
 
         if(marker!=null) {
            marker.remove();
