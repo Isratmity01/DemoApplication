@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/a"
+        android:gravity="center_vertical"
+        android:id="@+id/imageButton"
+        android:layout_weight="0.69" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="86dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Demo App"
+        android:id="@+id/textView"
+        android:textColorLink="@color/abc_primary_text_disable_only_material_light"
+        android:textStyle="bold"
+        android:textColor="#ff2d1d"
+        android:textSize="40dp" />
+</LinearLayout>
