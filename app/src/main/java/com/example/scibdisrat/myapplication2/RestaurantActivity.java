@@ -61,7 +61,7 @@ public class RestaurantActivity extends FragmentActivity {
         lat = location.getLatitude();
 
         lng = location.getLongitude();
-        restaurantURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + lat + "," + lng + "&radius=1000&sensor=true&types=restaurant&key=AIzaSyCCA2qBXRkh7EhnoyI2vWjnRTafhKmVEdY";
+        restaurantURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + lat + "," + lng + "&radius=1000&sensor=true&types=restauranto&key=*use own google places api web service*";
 
         if(marker!=null) {
             marker.remove();
